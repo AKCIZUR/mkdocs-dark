@@ -1,0 +1,27 @@
+/* Minimal production layer over the theme. */
+
+:root {
+  --md-primary-fg-color: #111827;
+  --md-primary-fg-color--light: #1f2937;
+  --md-primary-fg-color--dark: #030712;
+  --md-default-fg-color: #111827;
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 16px;
+}
+
+.md-typeset table {
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.md-content {
+  max-width: 900px;
+}
+
+.md-header,
+.md-footer {
+  backdrop-filter: blur(10px);
+}

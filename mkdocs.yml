@@ -1,0 +1,44 @@
+site_name: MkDocs Shadcn Starter
+site_description: Production-ready documentation starter for GitHub Pages.
+site_url: https://USERNAME.github.io/REPO/
+repo_url: https://github.com/USERNAME/REPO
+repo_name: REPO
+edit_uri: edit/main/docs/
+
+theme:
+  name: shadcn
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.blocks.caption
+  - pymdownx.blocks.details
+  - pymdownx.blocks.tab
+  - pymdownx.highlight:
+      anchor_linenums: true
+      auto_title: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.details
+
+plugins:
+  - search
+
+extra_css:
+  - assets/custom.css
+
+nav:
+  - Home: index.md
+  - Getting started: getting-started.md
+  - Reference: reference.md
+  - Changelog: changelog.md
