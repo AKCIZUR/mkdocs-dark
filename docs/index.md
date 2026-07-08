@@ -1,32 +1,32 @@
-# Documentation that feels finished
+# VCCSD Docs
 
-A clean starter for product docs, internal knowledge bases, and open-source project documentation.
+Moderní dokumentační základ s levým menu, horním panelem, obsahem stránky a vynuceným dark režimem.
 
-## What is included
+## Co je připraveno
 
-- polished landing page
-- structured navigation
-- production deploy workflow
-- editable CSS layer
-- content-ready page skeleton
+- plná navigace v levém panelu
+- rychlé vyhledávání
+- pravý panel s obsahem stránky
+- GitHub Pages deploy přes Actions
+- čistý základ pro produktové i interní dokumentace
 
-## Highlights
+## Vzhled
 
 !!! note
-    Replace placeholder branding and URLs before publishing.
+    Tato verze je schválně dark-only. Bez přepínače, bez světelné varianty.
 
 !!! tip
-    Keep the navigation shallow at first. Add sections only when the content exists.
+    Menu stav co nejprve drž nízko. Přidej sekce až ve chvíli, kdy opravdu existují.
 
-## Quick example
+## Ukázka použití
 
 ```bash
 mkdocs serve
 ```
 
-## Next steps
+## Co dál
 
-- add your guides
-- add API reference pages
-- connect your repository
-- publish to GitHub Pages
+- doplnit vlastní články
+- vyměnit branding
+- přidat API reference
+- připojit repository na GitHub Pages

@@ -1,23 +1,30 @@
-# Getting started
+# Rychlý start
 
-## 1. Install
+## Instalace
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## 2. Run locally
+## Lokální spuštění
 
 ```bash
 mkdocs serve
 ```
 
-## 3. Build for release
+## Produkční build
 
 ```bash
-mkdocs build
+mkdocs build --strict
 ```
 
-## 4. Deploy
+## Nasazení
 
-The included workflow publishes to GitHub Pages automatically from `main`.
+Po pushi do `main` se repozitář publikuje přes GitHub Actions.
+
+## Doporučený postup
+
+1. uprav `site_url`
+2. uprav `repo_url`
+3. nahraď logo a favicon
+4. doplň vlastní obsah

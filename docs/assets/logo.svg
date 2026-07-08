@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Docs logo">
-  <rect width="128" height="128" rx="28" fill="#111827"/>
-  <path d="M34 38h60v10H34zM34 58h46v10H34zM34 78h60v10H34z" fill="#ffffff"/>
-  <circle cx="95" cy="84" r="8" fill="#22c55e"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="VCCSD Docs">
+  <rect width="128" height="128" rx="28" fill="#09090b"/>
+  <rect x="30" y="30" width="68" height="68" rx="18" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M42 48h44M42 64h34M42 80h44" stroke="#93c5fd" stroke-width="6" stroke-linecap="round"/>
 </svg>

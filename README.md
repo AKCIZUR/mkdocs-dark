@@ -1,26 +1,30 @@
-# MkDocs Shadcn GitHub Ready
+# MkDocs Shadcn GitHub Ready v2
 
-Production-ready starter for documentation sites using `mkdocs-shadcn` and GitHub Pages.
+Produční dokumentační šablona pro GitHub Pages postavená na `mkdocs-shadcn`.
 
-## Features
+## Co je uvnitř
 
-- MkDocs + `theme: shadcn`
-- GitHub Pages deployment via GitHub Actions
-- Dark-friendly styling with a small custom CSS layer
-- Clean navigation skeleton
-- Search enabled
-- Ready for docs growth: guides, API, changelog, releases
+- levý panel s plnou navigací
+- horní lišta s logem, vyhledáváním a odkazy
+- pravý panel s obsahem stránky
+- vynucený dark režim
+- připravený GitHub Actions deploy
+- více stránek pro start, architekturu, komponenty, reference, FAQ a release notes
 
-## Local development
+## Spuštění lokálně
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
+# Windows:
+.venv\Scripts\activate
+# macOS / Linux:
+source .venv/bin/activate
+
 pip install -r requirements.txt
 mkdocs serve
 ```
 
-## Build locally
+## Build
 
 ```bash
 mkdocs build
@@ -28,11 +32,10 @@ mkdocs build
 
 ## Deploy
 
-Push to `main`. The workflow in `.github/workflows/deploy.yml` publishes the site to GitHub Pages.
+Workflow `.github/workflows/deploy.yml` publikuje obsah na GitHub Pages z větve `main`.
 
-## First setup
+## Co upravit před nasazením
 
-1. Replace `USERNAME` and `REPO` in `mkdocs.yml`.
-2. Update the site title, description, and logo if needed.
-3. Add your content under `docs/`.
-4. Commit and push.
+- `site_url`, `repo_url` a `repo_name` v `mkdocs.yml`
+- logo a favicon v `docs/assets/`
+- vlastní texty v `docs/`

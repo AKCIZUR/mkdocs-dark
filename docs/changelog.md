@@ -1,8 +1,13 @@
 # Changelog
 
+## 2.0.0
+
+- production-ready layout
+- dark-only styling
+- left navigation, top bar and right TOC ready
+- GitHub Actions deploy
+- extended documentation skeleton
+
 ## 1.0.0
 
-- initial production-ready release
-- GitHub Pages workflow added
-- starter docs pages included
-- custom CSS layer included
+- první základní starter

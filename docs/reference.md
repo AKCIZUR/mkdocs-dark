@@ -1,31 +1,28 @@
 # Reference
 
-## Recommended structure
+## Konfigurační minimum
 
-```text
-docs/
-├── index.md
-├── getting-started.md
-├── reference.md
-├── changelog.md
-└── assets/
-    └── custom.css
+```yaml
+site_name: VCCSD Docs
+theme:
+  name: shadcn
+plugins:
+  - search
 ```
 
-## Markdown patterns
+## Doporučené rozšíření
 
-- headings
-- tables
-- code blocks
-- admonitions
-- tabs
-- task lists
+- `admonition`
+- `tables`
+- `toc`
+- `pymdownx.highlight`
+- `pymdownx.superfences`
+- `pymdownx.tabbed`
+- `pymdownx.tasklist`
 
-## Example table
+## Obsahové zásady
 
-| Section | Purpose |
-| --- | --- |
-| Home | Landing page |
-| Getting started | Setup and usage |
-| Reference | Detailed notes |
-| Changelog | Release history |
+1. začni landing page
+2. přidej onboarding
+3. rozděl dokumentaci podle témat
+4. přidej FAQ a release notes
